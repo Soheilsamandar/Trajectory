@@ -53,7 +53,7 @@ This project implements a robust motion tracking system using **Python** and **O
 | :--- | :--- |
 | **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
 | **Computer Vision** | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) |
-| **Math & Analysis** | `NumPy`, `SciPy` |
+| **Math & Analysis** | `NumPy` |
 | **Visualization** | `Matplotlib` |
 
 ---
