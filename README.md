@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Motion Trackin & Analytics System
+# 🚀 Motion Tracking & Analytics System
 
 <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
 <img src="https://img.shields.io/badge/OpenCV-Latest-green.svg" alt="OpenCV">
@@ -20,14 +20,14 @@
 
 ## 📝 Project Overview
 
-This project implement a robust motion tracking system using **Python** and **OpenCV**. It goes beyond simple tracking by converting raw pixel movements into meaningful physical metrics. The system utilizes color-based segmentation (HSV) to identify objects and mathematical models to analyze their behavior.
+This project implements a robust motion tracking system using **Python** and **OpenCV**. It goes beyond simple tracking by converting raw pixel movements into meaningful physical metrics. The system utilizes color-based segmentation (HSV) to identify objects and mathematical models to analyze their behavior.
 
 ## ✨ Key Features
 
 <table width="100%">
   <tr>
     <td width="50%">
-      <h3>🔍 Precise Tracking</h3
+      <h3>🔍 Precise Tracking</h3>
       <ul>
         <li>HSV-based color thresholding</li>
         <li>Contour detection algorithms</li>
@@ -35,7 +35,7 @@ This project implement a robust motion tracking system using **Python** and **Op
       </ul>
     </td>
     <td width="50%">
-      <h3>📊 Data Analytics</h3
+      <h3>📊 Data Analytics</h3>
       <ul>
         <li>Automatic trajectory logging (.csv)</li>
         <li>Velocity & Speed profiling</li>
@@ -47,7 +47,7 @@ This project implement a robust motion tracking system using **Python** and **Op
 
 ---
 
-## 🛠️ Technical Stac
+## 🛠️ Technical Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -58,22 +58,55 @@ This project implement a robust motion tracking system using **Python** and **Op
 
 ---
 
-## 📈 Analysis Output
+## 📈 Visual Analysis Results
 
-The system automatically generates an `analysis/` directory containing:
+The system automatically generates high-fidelity diagnostic plots. Below are the generated analytics:
 
-1.  **`chart-analysis.png`**: A dual-axis plot showing the velocity profile of the object over time.
-2.  **`trajectory_3d.png`**: A 3D representation of the object's path, mapping $X$, $Y$, and $Time$ (Frames).
-3.  **`trajectory.csv`**: A structured data log containing:
-    *   `Frame Number`
-    *   `X-Coordinate`
-    *   `Y-Coordinate`
-    *   `Speed (px/f)`
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="analysis/chart-analysis.png" width="300"><br>
+      <b>Speed Profile</b>
+    </td>
+    <td align="center">
+      <img src="analysis/trajectory_3d.png" width="300"><br>
+      <b>3D Trajectory</b>
+    </td>
+    <td align="center">
+      <img src="analysis/movement-tracking.png" width="300"><br>
+      <b>Movement Path</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🚀 Gettin Started
+## 📂 Data Logs
 
-### Prerequisites
+In addition to visual plots, the system exports a structured `trajectory.csv` file:
+
+| Column | Description |
+| :--- | :--- |
+| `frame` | The timestamp/frame number |
+| `x_pos` | Horizontal coordinate |
+| `y_pos` | Vertical coordinate |
+| `speed` | Calculated instantaneous velocity |
+
+---
+
+---
+
+## 🚀 Getting Started
+
+Follow these step to set up the environment and run the motion tracking system on your local machine.
+
+### 1️⃣ Prerequisites
+Ensure you have **Python 3.8+** installed on your system. You can check your version by running:
 ```bash
-pip install opencv-python numpy matplotlib scipy
+python --version
+git clone https://github.com/yourusername/motion-tracking-system.git
+cd motion-tracking-system
+pip install opencv-python numpy matplotlib
+> python -m venv venv
+> source venv/bin/activate  # On Windows use: venv\Scripts\activate
+> pip install opencv-python numpy matplotlib scipy
