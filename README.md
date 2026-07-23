@@ -69,11 +69,11 @@ The system automatically generates high-fidelity diagnostic plots. Below are the
       <b>Speed Profile</b>
     </td>
     <td align="center">
-      <img src="trajectoryanalysis/trajectory_3d.png" width="300"><br>
+      <img src="trajectory/analysis/trajectory_3d.png" width="300"><br>
       <b>3D Trajectory</b>
     </td>
     <td align="center">
-      <img src="trajectoryanalysis/movement-tracking.png" width="300"><br>
+      <img src="trajectory/analysis/movement-tracking.png" width="300"><br>
       <b>Movement Path</b>
     </td>
   </tr>
