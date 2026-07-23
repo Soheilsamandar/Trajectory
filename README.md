@@ -73,7 +73,7 @@ The system automatically generates high-fidelity diagnostic plots. Below are the
       <b>3D Trajectory</b>
     </td>
     <td align="center">
-      <img src="trajectory/analysis/movement-tracking.png" width="300"><br>
+      <img src="trajectory/analysis/movement_object.png" width="300"><br>
       <b>Movement Path</b>
     </td>
   </tr>
