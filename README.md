@@ -96,17 +96,28 @@ In addition to visual plots, the system exports a structured `trajectory.csv` fi
 
 ---
 
+---
+
 ## 🚀 Getting Started
 
-Follow these step to set up the environment and run the motion tracking system on your local machine.
+Follow these steps to set up the environment and run the motion tracking system on your local machine.
 
 ### 1️⃣ Prerequisites
 Ensure you have **Python 3.8+** installed on your system. You can check your version by running:
 ```bash
 python --version
+2️⃣ Installation
+First, clone the repository to your local machine:
+
 git clone https://github.com/yourusername/motion-tracking-system.git
 cd motion-tracking-system
-pip install opencv-python numpy matplotlib
+Next, install the required dependencies using pip:
+
+pip install opencv-python numpy matplotlib scipy
+💡 Pro Tip: It is highly recommended to use a virtual environment to avoid dependency conflicts:
+
+bash
 > python -m venv venv
 > source venv/bin/activate  # On Windows use: venv\Scripts\activate
 > pip install opencv-python numpy matplotlib scipy
+ 
