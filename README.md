@@ -24,7 +24,7 @@ This project implement a robust motion tracking system using **Python** and **Op
 
 ## ✨ Key Features
 
-<table width="90%">
+<table width="100%">
   <tr>
     <td width="50%">
       <h3>🔍 Precise Tracking</h3
