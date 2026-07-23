@@ -26,7 +26,7 @@ This project implement a robust motion tracking system using **Python** and **Op
 
 <table width="100%">
   <tr>
-    <td width="50%">
+    <td width="60%">
       <h3>🔍 Precise Tracking</h3
       <ul>
         <li>HSV-based color thresholding</li>
@@ -34,7 +34,7 @@ This project implement a robust motion tracking system using **Python** and **Op
         <li>Real-time Centroid calculation</li>
       </ul>
     </td>
-    <td width="50%">
+    <td width="60%">
       <h3>📊 Data Analytics</h3
       <ul>
         <li>Automatic trajectory logging (.csv)</li>
