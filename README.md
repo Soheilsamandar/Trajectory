@@ -120,4 +120,26 @@ In addition to visual plots, the system exports a structured `trajectory.csv` fi
     <p>First, clone the repository to your local machine:</p>
     <pre><code>git clone https://github.com/yourusername/motion-tracking-system.git
 cd motion-tracking-system</code></pre>
- 
+    
+    <p>Next, install the required dependencies using <code>pip</code>:</p>
+    <pre><code>pip install opencv-python numpy matplotlib scipy</code></pre>
+  </div>
+
+  <!-- 💡 Pro Tip -->
+  <div style="backgroun-color: #f8f9fa; border-left: 5px solid #007bff; padding: 15px; border-radius: 5px;">
+    <h4 style="margin-top: 0; color: #007bff;">💡 Pro Tip</h4>
+   <p style="margin-bottom: 10px;">It is highly recommended to use a <b>virtual environment</b> to avoid dependency conflicts:</p>
+    <pre style="margin-bottom: 0;"><code># Create and activate virtual environment
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install opencv-python numpy matplotlib </code></pre>
+  </div>
+</section>
+
