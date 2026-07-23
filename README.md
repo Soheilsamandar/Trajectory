@@ -104,9 +104,9 @@ Follow these steps to set up the environment and run the motion tracking system 
 
 ### 1️⃣ Prerequisites
 Ensure you have **Python 3.8+** installed on your system. You can check your version by running:
-```bash
+```bash```
 python --version
-2️⃣ Installation
+###2️⃣ Installation
 First, clone the repository to your local machine:
 
 git clone https://github.com/yourusername/motion-tracking-system.git
