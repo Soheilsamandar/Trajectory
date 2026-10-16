@@ -6,10 +6,8 @@
 <img src="https://img.shields.io/badge/OpenCV-Latest-green.svg" alt="OpenCV">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
 
----
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Motion%20Analytics&fontSize=70" />
+  <strong>An advanced real-time computer vision system for object tracking and movement analysis.</strong>
 </p>
 
 </div>
