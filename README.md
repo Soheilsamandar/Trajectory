@@ -6,10 +6,6 @@
 <img src="https://img.shields.io/badge/OpenCV-Latest-green.svg" alt="OpenCV">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
 
-<p align="center">
-  <strong>An advanced real-time computer vision system for object tracking and movement analysis.</strong>
-</p>
-
 ---
 
 <p align="center">
